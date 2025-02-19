@@ -8,5 +8,5 @@ def word_count(file_path: str) -> dict:
             words = line.split()
             for w in words:
                 word = w.lower()
-                counts[word] = counts.get(word, 0) + 1
+                counts[word] = counts.get(word, 0) + 2
 return counts
